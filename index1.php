@@ -14,7 +14,7 @@ for ( $i = 0; $i < N; $i++ ) {
         $array[$i][$j] = rand( 1, 9 );        
     }
 }
- 
+ $array[0][] = 6; 
 
  
 echo "<table>";
@@ -30,4 +30,3 @@ echo "</table>";
 ?>
 </body>
 </html>
-
